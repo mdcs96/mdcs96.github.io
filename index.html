@@ -152,58 +152,6 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-钱包归并以及打标签" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="钱包归并以及打标签"><a href="#钱包归并以及打标签" class="headerlink" title="钱包归并以及打标签"></a>钱包归并以及打标签</h1><h2 id="新块地址处理规则"><a href="#新块地址处理规则" class="headerlink" title="新块地址处理规则"></a>新块地址处理规则</h2><p>1.新块中某钱包中所有地址命中地址表(SY_addr_label，下同)，且在地址表同一钱包，不作处理。</p>
-<p>2.若新块中某钱包所有地址命中地址表，且在地址表不同钱包，把这些钱包的 walletid 改为地址数最多的钱包的 walletid，并把这些 walletid 存到 log 以及表中。</p>
-<p>3.若新块中某钱包一部分地址未命中地址表，其余地址均在地址表中同一钱包，把未命中的地址的 walletid 改为地址表相应钱包的 walletid，标签也打上相应的，再插入到地址表中。</p>
-<p>4.若新块中某钱包一部分地址未命中地址表，其余地址在地址表不同钱包中，把地址表这些钱包的 walletid 和未命中的地址的 walletid 改为地址数最多的钱包的 walletid。若地址表中这些钱包的标签相同，给未命中的地址打上该标签，再把未命中的地址插入到地址表。把这些 walletid 存到 log 以及表中。</p>
-<p>5.若新块中某钱包地址均未命中地址表，直接把地址和 walletid 插入地址表，标签为空。把该 walletid 存到 log 以及表中。</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/08/28/钱包归并以及打标签/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
     <article id="post-hexo搭建" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
